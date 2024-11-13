@@ -19,7 +19,7 @@ public class TV {
         return this.marca;
     }
     public void setMarca(Marca nuevaMarca){
-        this.marca.setNombre(nuevaMarca.getNombre());
+        this.marca = nuevaMarca;
     }
 
     public int getPrecio(){
