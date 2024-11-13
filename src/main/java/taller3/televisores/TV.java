@@ -33,7 +33,7 @@ public class TV {
         return this.canal;
     }
     public void setCanal(int nuevoCanal){
-        if (nuevoCanal >= 1 || nuevoCanal <= 120){
+        if (nuevoCanal >= 1 && nuevoCanal <= 120){
             this.canal = nuevoCanal;
         }
     }
@@ -42,7 +42,7 @@ public class TV {
         return this.volumen;
     }
     public void setVolumen(int nuevoVolumen){
-        if (nuevoVolumen >= 0 || nuevoVolumen <= 7){
+        if (nuevoVolumen >= 0 && nuevoVolumen <= 7){
             this.volumen = nuevoVolumen;
         }
     }
